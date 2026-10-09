@@ -1,0 +1,6 @@
+{
+  "name": "GG Offline Chat",
+  "description": "Offline Bluetooth messaging app for nearby communication without internet, passwords, or phone verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

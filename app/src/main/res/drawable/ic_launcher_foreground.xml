@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glow effect behind GG icon -->
+    <path
+        android:pathData="M54,54m-24,0a24,24 0 1,0 48,0a24,24 0 1,0 -48,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="26"
+                android:type="radial">
+                <item android:color="#3300E676" android:offset="0.0" />
+                <item android:color="#0000E676" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- First 'G' (Left) -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M48,43 C46,38 41,36 36,36 C28.5,36 23,41.5 23,49 C23,56.5 28.5,62 36,62 C42.5,62 47,58 48,52 L36,52" />
+
+    <!-- Second 'G' (Right) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M83,43 C81,38 76,36 71,36 C63.5,36 58,41.5 58,49 C58,56.5 63.5,62 71,62 C77.5,62 82,58 83,52 L71,52" />
+
+    <!-- Radio / Peer-to-Peer Signal Broadcast Beacon at top-center -->
+    <path
+        android:pathData="M54,27m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#00E676" />
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M47,23 A9,9 0 0,1 61,23" />
+    <path
+        android:strokeColor="#6600E676"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M42,19 A16,16 0 0,1 66,19" />
+
+    <!-- Offline indicator dot / shield accent at bottom -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M34,71 L54,77 L74,71" />
+</vector>
